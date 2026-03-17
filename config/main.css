@@ -151,7 +151,7 @@ header nav ul a:active {
 
 @media (max-width: 800px) {
   .hero {
-    display: none;
+    background-color: blue;
   }
   header nav .nav-toggle {
     position: absolute;
