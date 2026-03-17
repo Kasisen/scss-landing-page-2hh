@@ -1,0 +1,25 @@
+// flex-container
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-container-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+// some common colors
+$text-main: black;
+$purple: #df6951;
+
+// text styles
+$large: 80px;
+$middle: 18px;
+$small: 16px;
+$sLing-height: 26px;
+
+$font-s: 400;
+$font-m: 700;
+$font-l: 900;
