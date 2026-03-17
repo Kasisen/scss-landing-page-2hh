@@ -150,6 +150,9 @@ header nav ul a:active {
 }
 
 @media (max-width: 800px) {
+  .hero {
+    display: none;
+  }
   header nav .nav-toggle {
     position: absolute;
     top: 30px;
