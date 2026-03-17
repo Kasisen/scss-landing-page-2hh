@@ -149,9 +149,47 @@ header nav ul a:active {
   color: white;
 }
 
-@media (max-width: 800px) {
-  .hero {
-    background-color: blue;
+@media (max-width: 900px) {
+  body {
+    overflow-x: hidden;
+  }
+  .hero-wrap .hero-head {
+    top: 130px;
+  }
+  .hero-wrap .hero-head .hero-best {
+    display: none;
+  }
+  .hero-wrap .hero-head .hero-enjoy {
+    width: 300px;
+    font-weight: 700;
+    font-size: 60px;
+    margin: 0;
+  }
+  .hero-wrap .hero-head .hero-built {
+    font-weight: 300;
+  }
+  .hero-wrap .hero-head .hero-box {
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .hero-wrap .hero-head .hero-box .hero-btn {
+    width: 200px;
+    font-size: 18px;
+    height: 70px;
+  }
+  .hero-wrap .hero-head .hero-box .play-demo {
+    display: none;
+  }
+  .hero-wrap .hero-logo .hero-ps {
+    width: 400px;
+    height: 600px;
+  }
+  .hero-wrap .hero-logo .traveller {
+    top: 30%;
+    right: 100px;
+    width: 400px;
+    height: 400px;
   }
   header nav .nav-toggle {
     position: absolute;

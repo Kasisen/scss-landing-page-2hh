@@ -149,9 +149,52 @@ header {
     }
 }
 
-@media (max-width: 800px) {
-    .hero {
-        background-color: blue;
+@media (max-width: 900px) {
+    body {
+        overflow-x: hidden;
+    }
+    .hero-wrap {
+        .hero-head {
+            top: 130px;
+            .hero-best {
+                display: none;
+            }
+            .hero-enjoy {
+                width: 300px;
+                font-weight: 700;
+                font-size: 60px;
+                margin: 0;
+            }
+            .hero-built {
+                font-weight: 300;
+            }
+            .hero-box {
+                width: 100%;
+                align-items: center;
+                justify-content: flex-start;
+                .hero-btn {
+                    width: 200px;
+                    font-size: 18px;
+                    height: 70px;
+                }
+                .play-demo {
+                    display: none;
+                }
+            }
+        }
+        .hero-logo {
+            // position: relative;
+            .hero-ps {
+                width: 400px;
+                height: 600px;
+            }
+            .traveller {
+                top: 30%;
+                right: 100px;
+                width: 400px;
+                height: 400px;
+            }
+        }
     }
     header {
         nav {
